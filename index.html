@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>STUDENT FORM</h1>
+    <form id="studentform">
+        <label>Name</label>
+        <input type="text" placeholder="name" id="name">
+
+        <label>Age</label>
+        <input type="number" placeholder="Enter your age" id="age">
+
+        <label>Gender</label>
+        <input type="radio" value="male" name="Gender">Male
+        <input type="radio" value="Female" name="Gender">Female
+
+        <label>Course</label>
+        <select id="Course">
+            <option value="">Select the Course</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="html">HTML</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <button id="submit">Submit</button>
+    </form>
+
+    <table id="Studenttable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Amal</td>
+            <td>22</td>
+            <td>PYTHON</td>
+            <td>Male</td>
+            <td>Amal@gmail.com</td>
+            <td><button class="delete" onclick="deleteRow(this)">Delete</button></td>
+
+            </tr>
+
+        </tbody>
+        
+    </table>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

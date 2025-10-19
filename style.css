@@ -1,0 +1,71 @@
+ body {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    label {
+        display: block;
+        margin-top: 20px;
+    }
+
+    form {
+        border: solid black 2px;
+        padding: 30px;
+        margin: 20px;
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    select {
+        width: 100%;
+        padding: 5px;
+        border: solid 2px black;
+        border-radius: 5px;
+
+    }
+
+    input[type="radio"] {
+        margin-top: 10px;
+    }
+
+    th {
+        border: solid 2px black;
+        padding: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin-top: 25px;
+        width: 80%;
+        text-align: center;
+    }
+
+    #submit {
+        border: none;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        margin-top: 5px;
+        cursor: pointer;
+
+    }
+    .delete{
+        border: none;
+        background-color: red;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    tr{
+        border: solid 2px black;
+       
+    }
